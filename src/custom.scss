@@ -1,0 +1,136 @@
+@import "./pages/shipments.scss";
+@import "./pages/dashboard.scss";
+@import "./components/tableship.scss";
+@import "./components/login.scss";
+
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+ul{
+  padding-inline-start: 0px;
+}
+
+.col-md-2, .col-3{
+  padding: 0px !important;
+}
+
+.sidebar-nav{
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  flex-direction: row;
+
+
+  .nav-title{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.menu-bars{
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.relative{
+  position: relative;
+}
+
+.text-error{
+  font-size: 14px;
+  color: red;
+}
+
+.nav-menu{
+  background-color: #002455;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  // left: -100%;
+  transition: 500ms;
+  width: 100%;
+  max-width: 240px;
+
+  &.active{
+    left: 0;
+    transition: 350s;
+  }
+
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+
+    a{
+      text-decoration: none;
+      color: #fff;
+      width: 100%;
+      font-size: 18px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0px 16px;
+
+      &:hover{
+        background-color: #1a83ff;
+      }
+    }
+  }
+
+  .nav-menu-items{
+    width: 100%;
+
+    img{
+      margin: 0px auto;
+      display: block;
+    }
+  }
+
+  .navbar-toggle{
+    background-color: #002455;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  span{
+    margin-left: 16px;
+  }
+}
+
+// .table-ship{
+//   .icon-direction{
+//     transform: rotate(0deg);
+//     &.rotate{
+//       transform: rotate(90deg);
+//     }
+//   }
+//   .text-expand{
+//     visibility: hidden;
+//     &.show{
+//       visibility: visible
+//     }
+//     .row-content{
+//       max-width: 200px;
+//     }
+//   }
+// }
+

@@ -1,0 +1,34 @@
+.background-login{
+  background-color: #002455;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  .login-box{
+    align-self: center;
+    width: 300px;
+
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+
+    .form-group{
+      .form-label{
+        color: #CCAF6B
+      }
+    }
+
+    .login-button{
+      margin-top: 20px;
+      background-color: #CCAF6B;
+      color: #002455;
+    }
+
+    .text-forgot{
+      margin-top: 5px;
+      color: #CCAF6B;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.table-ship{
+  .table{
+    th{
+      background-color: #E7D9B7;
+    }
+  }
+  .icon-direction{
+    transform: rotate(0deg);
+    &.rotate{
+      transform: rotate(90deg);
+    }
+  }
+  .text-expand{
+    visibility: hidden;
+    &.show{
+      visibility: visible
+    }
+    .row-content{
+      max-width: 200px;
+    }
+  }
+}

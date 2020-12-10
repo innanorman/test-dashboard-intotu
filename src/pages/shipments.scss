@@ -1,0 +1,55 @@
+.shipment{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+
+  .notif{
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .sidebar{
+    background-color: #002455;
+    height: 100vh;
+
+    ul{
+      padding-inline-start: 0px;
+      list-style: none;
+      color:#fff;
+    }
+  }
+
+  .data-form{
+    width: 100%;
+
+    .left-padding{
+      padding-left: 40px;
+    }
+
+    .title-form{
+      padding-bottom: 20px;
+      font-size: 16px;
+      color: #CCAF6B;
+    }
+
+    .form-group{
+      &.row{
+        .col-form-label{
+          font-size: 16px;
+          vertical-align: middle;
+        }
+
+        input{
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  .button-form-primary{
+    background-color: #CCAF6B;
+    color: #002455;
+  }
+}

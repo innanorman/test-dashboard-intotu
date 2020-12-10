@@ -1,0 +1,42 @@
+.dashboard{
+
+  .status-transaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 30px;
+
+    .status-item{
+      width: calc(100% / 3);
+      align-content: center;
+      border: 1px solid #CCAF6B;
+      background-color: #F5F0E2;
+      border-radius: 4px;
+      height: 100px;
+      padding: 8px;
+      margin-right: 10px;
+
+      &:last-child{
+        margin-right: 0px;
+      }
+    }
+
+  }
+
+  .nav-tabs{
+    .nav-link{
+      color: #EAEAEA;
+      border: none;
+
+      &.active{
+        color: #CCAF6B;
+        border-bottom: 1px solid #CCAF6B
+      }
+    }
+  }
+
+  .row{
+    position: relative;
+  }
+}
