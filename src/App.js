@@ -1,7 +1,7 @@
 import './App.css';
 import Pengiriman from './pages/Pengiriman';
 import Login from './components/Login';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import DashboardHome from './pages/DashboardHome';
 

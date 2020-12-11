@@ -7,7 +7,8 @@ import '../custom.css';
 
 function TableShip() {
   const [isOpen, setIsOpen] = useState(false);
-  const [dataShipping, setDataShipping] = useState()
+  const [dataShipping, setDataShipping] = useState();
+
 
   const showToggle = (e) => setIsOpen(!isOpen)
   useEffect(() => {
@@ -92,7 +93,8 @@ function TableShip() {
           
         </tbody>
       </Table>
-      Total {dataShipping.totalData} items
+      
+      Total { dataShipping && (dataShipping.totalData)} items
     </div>
   )
 }
